@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/font.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Calculadora Simples</h1>
+    </div>
+    <div class="container"> 
+    <div class="aparelho">
+    <form name="calc">
+        <input class="visor" type="text" name="visor"   ><br>
+    <input class="botoes" type="button" value="7" onclick="botao(value);">
+    <input class="botoes" type="button" value="8" onclick="botao(value);">
+    <input class="botoes" type="button" value="9" onclick="botao(value);">
+    <input class="botoes" type="button" value="/" onclick="botao(value);">
+    <br>
+    <input class="botoes" type="button" value="4" onclick="botao(value);">
+    <input class="botoes" type="button" value="5" onclick="botao(value);">
+    <input class="botoes" type="button" value="6" onclick="botao(value);">
+    <input class="botoes" type="button" value="*" onclick="botao(value);">
+    <br>
+    <input class="botoes" type="button" value="1" onclick="botao(value);">
+    <input class="botoes" type="button" value="2" onclick="botao(value);">
+    <input class="botoes" type="button" value="3" onclick="botao(value);">
+    <input class="botoes" type="button" value="-" onclick="botao(value);">
+    <br>
+    <input class="botoes" type="button" value="0" onclick="botao(value);">
+    <input class="botoes" type="button" value="=" onclick="calcule();">
+    <input class="botoes" type="button" value="C" onclick="reset();">
+    <input class="botoes" type="button" value="+" onclick="botao(value);">
+</form>
+</div>
+</div> 
+</body>
+<script type="text/javascript" src="./js/calculo.js" ></script>
+</html>
