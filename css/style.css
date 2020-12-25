@@ -23,8 +23,7 @@
     background-color: red;
     width: 400px;
     height: 500px;
-    margin-top: 20px;
-    margin-bottom: 20px; 
+    margin: 20px 0px;
     border-bottom: solid;
     border-right: solid; 
     border-radius: 3%;
