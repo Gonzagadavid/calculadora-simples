@@ -15,7 +15,3 @@
 - **resposividade de pagina para aparelhos de menores visores;**
 
   
-
-**Meus agradecimentos ao canal do ProfPereiraVirtual  por compartilhar o conhecimento, e me dar a oportunidade de exerce o meu conhecimento adquirido até o momento de alguma .**
-
-[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard) 
